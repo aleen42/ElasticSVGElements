@@ -48,7 +48,7 @@
 						</div>
 						<button class="menu__label"><i class="fa fa-fw fa-bars"></i><span>Open Menu</span></button>
 						<ul class="menu__inner">
-							<li><a href="#"><i class="fa fa-fw fa-bookmark-o"></i><span>Reading List</span></a></li>
+							<li><a href="https://www.baidu.com"><i class="fa fa-fw fa-bookmark-o"></i><span>Reading List</span></a></li>
 							<li><a href="#"><i class="fa fa-fw fa-hdd-o"></i><span>Saved Items</span></a></li>
 							<li><a href="#"><i class="fa fa-fw fa-image"></i><span>All Media</span></a></li>
 							<li><a href="#"><i class="fa fa-fw fa-heart-o"></i><span>Favorites</span></a></li>
@@ -99,9 +99,9 @@
 					this.el.addEventListener( 'click', this.toggle.bind(this) );
 						
 					// For Demo purposes only
-					[].slice.call( this.el.querySelectorAll('a') ).forEach( function(el) {
+					/*[].slice.call( this.el.querySelectorAll('a') ).forEach( function(el) {
 						el.onclick = function() { return false; }
-					} );
+					} );*/
 				};
 
 				SVGDDMenu.prototype.toggle = function() {
